@@ -1,0 +1,210 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 7000px) {
+    .hc-nav-original.hc-nav-1 {
+        display: block !important;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hc-nav-original.hc-nav-1 {
+        display: block !important;
+    }
+    .mobile-menu {
+        display: none;
+    }
+
+    .header-btn .days_trail {
+        display: none;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-btn a {
+        display: none;
+    }
+
+    .header-area .col-lg-2 {
+        width: 50%;
+    }
+    
+    .header-area .col-lg-10 {
+        width: 50%;
+    }
+    
+    .header-menu {
+        margin-top: 0;
+    }
+
+    .slider-content h2 {
+        font-size: 50px;
+    }
+
+    .slider-right-area {
+        margin-top: 50px;
+    }
+
+    .single-service {
+        margin-bottom: 30px;
+    }
+    
+    .feature-img {
+        margin-bottom: 30px;
+    }
+
+    .about-content-area {
+        margin-bottom: 30px;
+    }
+
+    .single-pricing {
+        margin-bottom: 30px;
+    }
+
+    .single-blog {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu {
+        margin-top: 50px;
+    }
+    
+    .footer-newsletter {
+        margin-top: 50px;
+    }
+    
+}
+
+
+/* small mobile :320px. */
+@media (min-width: 499px) and (max-width: 767px) {
+    .header-btn a {
+        display: none;
+    }
+
+    .header-area .col-lg-2 {
+        width: 50%;
+    }
+    
+    .header-area .col-lg-10 {
+        width: 50%;
+    }
+    
+    .header-menu {
+        margin-top: 0;
+    }
+
+    .slider-content h2 {
+        font-size: 40px;
+    }
+
+    .slider-right-area {
+        margin-top: 50px;
+    }
+
+    .single-service {
+        margin-bottom: 30px;
+    }
+    
+    .feature-img {
+        margin-bottom: 30px;
+    }
+
+    .about-content-area {
+        margin-bottom: 30px;
+    }
+
+    .single-pricing {
+        margin-bottom: 30px;
+    }
+
+    .single-blog {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu {
+        margin-top: 50px;
+    }
+    
+    .footer-newsletter {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 500px) {
+    .header-btn a {
+        display: none;
+    }
+
+    .header-area .col-lg-2 {
+        width: 50%;
+    }
+    
+    .header-area .col-lg-10 {
+        width: 50%;
+    }
+    
+    .header-menu {
+        margin-top: 0;
+    }
+
+    .slider-content h2 {
+        font-size: 34px;
+    }
+
+    .slider-content p{
+        font-size: 18px;
+    }
+
+    .service-title h2{
+        font-size: 25px;
+    }
+
+    .feature-title h2 {
+        font-size: 30px;
+    }
+
+    .agent-social-links ul li {
+        margin-bottom: 35px;
+    }
+
+    .slider-right-area {
+        margin-top: 50px;
+    }
+
+    .single-service {
+        margin-bottom: 30px;
+    }
+    
+    .feature-img {
+        margin-bottom: 30px;
+    }
+
+    .about-content-area {
+        margin-bottom: 30px;
+    }
+
+    .single-pricing {
+        margin-bottom: 30px;
+    }
+
+    .single-blog {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu {
+        margin-top: 50px;
+    }
+    
+    .footer-newsletter {
+        margin-top: 50px;
+    }
+}
+
+
+
