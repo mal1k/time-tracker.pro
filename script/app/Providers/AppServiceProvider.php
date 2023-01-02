@@ -26,6 +26,8 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultstringLength(191);
 
+        \URL::forceScheme('https');
+
         Blade::if('admin', function () {
             $user = auth()->user();
             return $user->role_id == 1 ?? false;
